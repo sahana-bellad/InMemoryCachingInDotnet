@@ -7,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 builder.Services.AddTransient<SampleDataAccess>();
+builder.Services.AddMemoryCache();
 
 var app = builder.Build();
 

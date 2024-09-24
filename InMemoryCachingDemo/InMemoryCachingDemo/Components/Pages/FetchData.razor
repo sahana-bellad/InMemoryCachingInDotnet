@@ -20,6 +20,6 @@ else
     List<EmployeeModel>? employees;
     protected override async Task OnInitializedAsync()
     {
-        employees = await data.GetEmployeesAsync();
+        employees = await data.GetEmployeesCache();
     }
 }
