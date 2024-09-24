@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/InMemoryCachingDemo/InMemoryCachingDemo/bin/Debug/net8.0
+/InMemoryCachingDemo/.vs/InMemoryCachingDemo/config
+/InMemoryCachingDemo/.vs/InMemoryCachingDemo/DesignTimeBuild
+/InMemoryCachingDemo/.vs/InMemoryCachingDemo/FileContentIndex
+/InMemoryCachingDemo/.vs/InMemoryCachingDemo/v17
+/InMemoryCachingDemo/InMemoryCachingDemo/obj

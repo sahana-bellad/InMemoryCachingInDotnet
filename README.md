@@ -1,2 +1,13 @@
 # InMemoryCachingInDotnet
-This repository demonstrates how to implement In-Memory Caching in a C# .NET application. In-memory caching helps improve application performance by temporarily storing frequently accessed data in memory, reducing the need to repeatedly fetch the same data from the database or external sources.
+A .NET Web API demonstrating how to implement In-Memory Caching for optimizing the performance of data-heavy operations by caching frequently accessed data in memory.
+
+Features:
+Efficiently caches data in memory using MemoryCache to avoid redundant data fetches.
+Provides a clear demonstration of dependency injection for caching services.
+
+Tech:
+ASP.NET Core Web API
+C# 
+.Net
+MemoryCache for in-memory data storage
+Dependency Injection for configuring caching services
