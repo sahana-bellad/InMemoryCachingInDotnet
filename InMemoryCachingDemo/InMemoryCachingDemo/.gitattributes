@@ -1,0 +1,2 @@
+﻿*.cs linguist-language=C#
+*.css linguist-detectable=false
