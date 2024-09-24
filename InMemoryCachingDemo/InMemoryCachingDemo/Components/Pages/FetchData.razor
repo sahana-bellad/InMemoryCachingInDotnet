@@ -18,8 +18,8 @@ else
 
 @code {
     List<EmployeeModel>? employees;
-    protected override void OnInitialized()
+    protected override async Task OnInitializedAsync()
     {
-        employees = data.GetEmployees();
+        employees = await data.GetEmployeesAsync();
     }
 }
